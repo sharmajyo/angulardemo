@@ -1,0 +1,21 @@
+<div>
+	<h1>{{actionName}} your new Todo note here</h1>
+	<form name="form" class="form">
+		<div class="form-group" ng-class="{'has-error': form.textField.$invalid}">
+			<label>Text</label>
+			<input name="textField" id="textField" class="form-control" type="text"  ng-model="item.text" required>
+		</div>
+		<div class="form-group" ng-class="{'has-error': form.priority.$invalid}">
+			<label>Pripority</label>
+			<input id="priority" name="priority" type="number" class="form-control" ng-model="item.priority">
+		</div>
+		<div class="form-group" ng-class="{'has-error': form.date.$invalid}">
+			<label>Due date</label>
+				<input id="dueDate" type="date" class="form-control" ng-model="item.dueDate">
+		</div>
+
+		<input type="button" value="{{actionName}}" ng-click="addData()" class="btn btn-primary" ng-disabled="form.$invalid">
+	
+		<input type="button"value="Cancel" ng-click="cancelData()" class="btn">
+	</form>
+</div>	

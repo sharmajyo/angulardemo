@@ -4,6 +4,70 @@
 		"selected_items":
 		[
 			[
+				"fun",
+				"func〔variable〕"
+			],
+			[
+				"sc",
+				"scope"
+			],
+			[
+				"controll",
+				"controller:ListCtrl"
+			],
+			[
+				"array_pu",
+				"array_push()	standard Function"
+			],
+			[
+				"get",
+				"getData"
+			],
+			[
+				"todo",
+				"TodoApp"
+			],
+			[
+				"TR",
+				"tr	Tag"
+			],
+			[
+				"scr",
+				"script	Tag"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"res",
+				"result_array"
+			],
+			[
+				"js",
+				"json_response"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"s",
+				"status"
+			],
+			[
+				"st",
+				"status_msg"
+			],
+			[
+				"mysqli_fe",
+				"mysqli_fetch_array()	mysqli Function"
+			],
+			[
+				"co",
+				"connection"
+			],
+			[
 				"pad",
 				"padding-bottom"
 			],
@@ -128,10 +192,6 @@
 				"HTMLUserName"
 			],
 			[
-				"fun",
-				"funThoughts"
-			],
-			[
 				"awe",
 				"awesomeThoughts"
 			],
@@ -152,10 +212,6 @@
 				"cookie_value"
 			],
 			[
-				"co",
-				"cookies"
-			],
-			[
 				"pass",
 				"password"
 			]
@@ -163,13 +219,69 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 695,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/app.js",
+			"settings":
+			{
+				"buffer_size": 1477,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "addtodo.html",
+			"settings":
+			{
+				"buffer_size": 921,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 920,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "list.html",
+			"settings":
+			{
+				"buffer_size": 666,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 328.0,
+		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"gist",
+				"Package Control: Install Package"
+			],
 			[
 				"xde",
 				"Preferences: Xdebug Settings – User"
@@ -189,17 +301,9 @@
 			[
 				"package in",
 				"Package Control: Install Package"
-			],
-			[
-				"inst",
-				"Package Control: Install Package"
-			],
-			[
-				"insta",
-				"Package Control: Advanced Install Package"
 			]
 		],
-		"width": 400.0
+		"width": 416.0
 	},
 	"console":
 	{
@@ -216,7 +320,18 @@
 	},
 	"file_history":
 	[
+		"/C/jyoti_project/angulardemo/list.html",
+		"/C/jyoti_project/angulardemo/css/style.css",
+		"/C/jyoti_project/angulardemo/api/todo.php",
+		"/C/jyoti_project/angulardemo/api/functions.php",
+		"/C/jyoti_project/angulardemo/js/script.js",
 		"/C/jyoti_project/gameSite/css/style.css",
+		"/C/jyoti_project/angulardemo/angularproject.sublime-project",
+		"/C/jyoti_project/angulardemo/.htaccess",
+		"/C/jyoti_project/angulardemo/api/v1/API.class.php",
+		"/C/jyoti_project/angulardemo/api/v1/MyAPI.class.php",
+		"/C/jyoti_project/angulardemo/api/v1/api.php",
+		"/C/jyoti_project/angulardemo/api/.htaccess",
 		"/C/jyoti_project/gameSite/inc/search.php",
 		"/C/jyoti_project/gameSite/inc/information.php",
 		"/C/jyoti_project/gameSite/js/script.js",
@@ -292,8 +407,145 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 695,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								283,
+								283
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js/app.js",
+					"settings":
+					{
+						"buffer_size": 1477,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1475,
+								1475
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 454.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "addtodo.html",
+					"settings":
+					{
+						"buffer_size": 921,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								741,
+								741
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "css/style.css",
+					"settings":
+					{
+						"buffer_size": 920,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								918,
+								918
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "list.html",
+					"settings":
+					{
+						"buffer_size": 666,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								289,
+								289
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		},
 		{
@@ -347,7 +599,7 @@
 		"rows":
 		[
 			0.0,
-			0.927641099855,
+			0.917218543046,
 			1.0
 		]
 	},
@@ -381,6 +633,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 122.0,
+	"side_bar_width": 149.0,
 	"status_bar_visible": true
 }
