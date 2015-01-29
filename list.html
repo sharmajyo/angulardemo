@@ -1,0 +1,14 @@
+<table class="table table-striped table-condensed table-hover">
+	<thead>
+		<th>Todo</th>
+		<th>Priority</th>
+		<th>Due</th>
+	</thead>
+	<tbody>
+		<tr ng-repeat="todo in todos">
+			<td>{{todo.text}}</td>
+			<td>{{todo.priority}}</td>
+			<td>{{todo.dueDate | dateToISO | date:'medium'}}</td>
+		</tr>
+	</tbody>
+</table>			

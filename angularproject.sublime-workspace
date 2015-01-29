@@ -1,0 +1,386 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"des",
+				"desc"
+			],
+			[
+				"sl",
+				"slideUp"
+			],
+			[
+				"t",
+				"title"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"fetch",
+				"mysqli_fetch"
+			],
+			[
+				"mysqli_",
+				"mysqli_connect"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"requi",
+				"require_once	Language Construct"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"bo",
+				"border-bottom"
+			],
+			[
+				"bor",
+				"border-left"
+			],
+			[
+				"slide",
+				"slideDown"
+			],
+			[
+				"ta",
+				"table"
+			],
+			[
+				"mysql_err",
+				"mysql_error()	mysql Function"
+			],
+			[
+				"my",
+				"mysql_query"
+			],
+			[
+				"fre",
+				"freechamp"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"l",
+				"label	Tag"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"text",
+				"TEXTAREA	Tag"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"requ",
+				"require_once	Language Construct"
+			],
+			[
+				"e",
+				"eduObj"
+			],
+			[
+				"h",
+				"HTMLContact"
+			],
+			[
+				"HTMLus",
+				"HTMLUserRole"
+			],
+			[
+				"ht",
+				"HTMLUserName"
+			],
+			[
+				"fun",
+				"funThoughts"
+			],
+			[
+				"awe",
+				"awesomeThoughts"
+			],
+			[
+				"in",
+				"input	Tag"
+			],
+			[
+				"cooki",
+				"cookie_pwd"
+			],
+			[
+				"coo",
+				"cookie_name"
+			],
+			[
+				"cookie",
+				"cookie_value"
+			],
+			[
+				"co",
+				"cookies"
+			],
+			[
+				"pass",
+				"password"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 328.0,
+		"selected_items":
+		[
+			[
+				"xde",
+				"Preferences: Xdebug Settings – User"
+			],
+			[
+				"xb",
+				"Xdebug: Stop Debugging"
+			],
+			[
+				"xd",
+				"Xdebug: Start Debugging"
+			],
+			[
+				"x",
+				"Xdebug: Stop Debugging"
+			],
+			[
+				"package in",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Advanced Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/jyoti_project/gameSite/css/style.css",
+		"/C/jyoti_project/gameSite/inc/search.php",
+		"/C/jyoti_project/gameSite/inc/information.php",
+		"/C/jyoti_project/gameSite/js/script.js",
+		"/C/jyoti_project/gameSite/inc/latestarticles.php",
+		"/C/jyoti_project/gameSite/inc/menu.php",
+		"/C/jyoti_project/gameSite/inc/freechampions.php",
+		"/C/jyoti_project/gameSite/inc/championsinfo.php",
+		"/C/jyoti_project/gameSite/inc/phpfunctions.php",
+		"/C/jyoti_project/gameSite/inc/footer.php",
+		"/C/jyoti_project/gameSite/index.php",
+		"/C/jyoti_project/gameSite/inc/head.php",
+		"/C/jyoti_project/gameSite/test.sublime-project",
+		"/C/jyoti_project/gameSite/test.sublime-workspace",
+		"/C/Users/Yogesh/AppData/Roaming/Sublime Text 2/Packages/Xdebug Client/Xdebug.sublime-settings",
+		"/C/Users/Yogesh/AppData/Roaming/Sublime Text 2/Packages/User/Xdebug.sublime-settings",
+		"/C/jyoti_project/gameSite/css/New Text Document.txt",
+		"/C/Users/Yogesh/Desktop/javascript/demoAngular/js/app.js",
+		"/C/Users/Yogesh/Desktop/javascript/demoAngular/html/index.html",
+		"/C/Users/Yogesh/Desktop/javascript/frontend-nanodegree-resume/index.html",
+		"/C/Users/Yogesh/Desktop/javascript/frontend-nanodegree-resume/js/resumeBuilder.js",
+		"/C/Users/Yogesh/Desktop/javascript/frontend-nanodegree-resume/js/helper.js",
+		"/E/jyots/Study/python/mystuff/webDev/apps/blog/blog.py",
+		"/C/Users/Yogesh/Desktop/javascript/timer.html",
+		"/E/jyots/Study/python/mystuff/webDev/apps/blog/login_html.html",
+		"/E/jyots/Study/python/mystuff/webDev/apps/blog/login_form.html",
+		"/C/Users/Yogesh/Desktop/javascript/timer",
+		"/E/jyots/Study/python/mystuff/webDev/apps/blog/login.py"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ADAD10",
+			"BABA0F",
+			"C2C210",
+			"#5C5859",
+			"freechamp",
+			"\n",
+			"remote_ena",
+			"F5F505",
+			"initializeMap"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"CEF067",
+			"ADAD10",
+			"BABA0F",
+			"#2D2E2C",
+			"C2C210"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				2,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			],
+			[
+				1,
+				1,
+				2,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.927641099855,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.xdebug":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 122.0,
+	"status_bar_visible": true
+}

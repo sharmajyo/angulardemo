@@ -1,0 +1,11 @@
+{
+	"folders":
+	[
+		{
+			"path": "/C/jyoti_project/angulardemo"
+		}
+	],
+	"settings":{
+		"xdebug":{"url":"http://localhost/angulardemo/api/todo.php"}
+	}
+}
