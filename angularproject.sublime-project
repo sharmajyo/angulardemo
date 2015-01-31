@@ -6,6 +6,6 @@
 		}
 	],
 	"settings":{
-		"xdebug":{"url":"http://localhost/angulardemo/api/todo.php"}
+		"xdebug":{"url":"http://localhost/angulardemo/api/todos.php/todos"}
 	}
 }

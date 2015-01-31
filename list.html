@@ -1,11 +1,18 @@
 <h1> Your current Todo list</h1>
 <table class="table table-striped table-condensed table-hover table-bordered">
 	<thead>
-		<th>Todo</th>
-		<th>Priority</th>
-		<th>Due</th>
+		<th ng-click="sortData('text')" sortProp="text"><a>Todo  <i ng-show="sort=='text' &&  !isDesc" class="glyphicon glyphicon-triangle-top"></i>
+			<i ng-show="sort=='text' && isDesc" class="glyphicon glyphicon-triangle-bottom"</i></a></th>
+
+		<th ng-click="sortData('priority')" sortProp="priority"><a>Priority  <i ng-show="sort=='priority' &&  !isDesc" class="glyphicon glyphicon-triangle-top"></i>
+			<i ng-show="sort=='priority' && isDesc" class="glyphicon glyphicon-triangle-bottom"</i></a></th>
+
+		<th ng-click="sortData('dueDate')" sortProp="dueDate"><a>Due  <i ng-show="sort=='dueDate' &&  !isDesc" class="glyphicon glyphicon-triangle-top"></i>
+			<i ng-show="sort=='dueDate' && isDesc" class="glyphicon glyphicon-triangle-bottom"</i></a></th>
+
 		<th><a ng-click="addNewTodo()"><i class="glyphicon glyphicon-plus"></i></a></th>
 	</thead>
+
 	<tbody>
 		<tr id="trow_{{todo.id}}" ng-repeat="todo in todos">
 			<td>{{todo.text}}</td>

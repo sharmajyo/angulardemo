@@ -22,7 +22,7 @@ var TodoApp=angular.module("TodoApp",["ngRoute","ngResource"]).
 	});
 
 TodoApp.factory('Todo',function($resource){
-	return $resource('/angulardemo/api/todo.php/:id',{id:"@id"},{getData:{method:"GET",isArray:false}, update:{method:'PUT'}});
+	return $resource('/angulardemo/api/todos.php/todos/:id',{id:"@id"},{update:{method:'PUT'}});
 });
 
 TodoApp.filter('dateToISO', function() {
@@ -31,25 +31,48 @@ TodoApp.filter('dateToISO', function() {
   };
 });
 
+TodoApp.directive('sortProp',function(){
+	return {scope:true,
+			controller:function($scope,$attr){
+				$scope.sort = $attrs.sorted;	
+				$scope.isDesc=true;
+			}
+		}	
+});
+
 var ListCtrl= function($scope,$location, Todo){
-	var result=Todo.getData(function(data){
-		$scope.todos=result.result_data;
-		});
-
-		$scope.addNewTodo= function(){
-			$location.path('/newTodo');
+	$scope.todos=Todo.query();
+	
+	$scope.sortData=function(value){
+		if($scope.sort ==value)
+		{
+			$scope.isDesc=!$scope.isDesc;
 		}
-
-		$scope.editTodo=function(){
-			$location.path('/editTodo/'+this.todo.id);
-		}
-
-		$scope.deleteTodo=function(){
-			$("#trow_"+this.todo.id).fadeOut('slow');
-		}
+		else
+		{
+			$scope.isDesc=false;
+		}	
+		$scope.sort=value;
+		$scope.todos=Todo.query({sort:$scope.sort,sortOrder:$scope.isDesc});
 	}
 
-var createCtrl=function($scope,$location){
+	$scope.addNewTodo= function(){
+		$location.path('/newTodo');
+	}
+
+	$scope.editTodo=function(){
+		$location.path('/editTodo/'+this.todo.id);
+	}
+
+	$scope.deleteTodo=function(){
+		var cId=this.todo.id;
+		Todo.delete({ id: cId }, function (){
+			$("#trow_"+cId).fadeOut('slow');
+		});
+	}
+}
+
+var createCtrl=function($scope,$location,Todo){
 	$scope.item;
 	$scope.actionName="Add";	
 
@@ -58,15 +81,32 @@ var createCtrl=function($scope,$location){
 	}
 
 	$scope.addData=function(){
-
+		Todo.save($scope.item,function(){
+			$location.path('/');
+		});
 	}
 }
 
-var editCtrl=function($scope,$location,$routeParams){
+var editCtrl=function($scope,$location,$routeParams,Todo){
+	
 	$scope.actionName="Update";	
-	/*$scope.item=Todo.get({ id: $routeParams.itemId });*/
+	$scope.item=Todo.get({ id: $routeParams.id });
+	
+	$scope.$watch('item',function(val,old){
+		if(typeof val.priority=="string")
+		{
+			$scope.item.priority = parseInt(val.priority); 	
+		}
+       
+    },true);
 
 	$scope.cancelData= function(){
 		$location.path('/');
 	}
+
+	$scope.addData=function(){
+		Todo.update({id: $scope.item.id},$scope.item,function(){
+				$location.path('/');
+			});
+	}	
 }

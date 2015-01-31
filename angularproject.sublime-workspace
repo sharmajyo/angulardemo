@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"To",
+				"TodoApp"
+			],
+			[
 				"fun",
 				"func〔variable〕"
 			],
@@ -220,42 +224,78 @@
 	"buffers":
 	[
 		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 695,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "js/app.js",
 			"settings":
 			{
-				"buffer_size": 1477,
+				"buffer_size": 2208,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "addtodo.html",
+			"file": "api/todos.php",
 			"settings":
 			{
-				"buffer_size": 921,
+				"buffer_size": 1783,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "css/style.css",
+			"file": "api/functions.php",
 			"settings":
 			{
-				"buffer_size": 920,
+				"buffer_size": 1144,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows",
+				"name": "Xdebug Context",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"contents": "|+| \"$row\"\n|+| \"result\"\n|+| \"$result\"\n|+| \"$connection\"\n|+| \"$query\"\n|+| \"$a\"\n|+| \"$name\"\n|+| \"$keyword\"\n|+| \"$results\"\n|+| \"$result_array\"\n|+| \"$id\"\n|+| \"$this\"\n|+| \"$app\"\n|+| \"$headers\"\n|+| \"$env\"\n|+| \"$env['REQUEST_METHOD']\"\n|+| \"$env->properties\"\n|+| \"$todo\"\n",
+			"settings":
+			{
+				"buffer_size": 263,
+				"line_ending": "Windows",
+				"name": "Xdebug Watch",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows",
+				"name": "Xdebug Stack",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"contents": "=> C:\\jyoti_project\\angulardemo\\api\\slimtest.php\n	|+| 35\n",
+			"settings":
+			{
+				"buffer_size": 57,
+				"line_ending": "Windows",
+				"name": "Xdebug Breakpoint",
+				"read_only": true,
+				"scratch": true
 			}
 		},
 		{
 			"file": "list.html",
 			"settings":
 			{
-				"buffer_size": 666,
+				"buffer_size": 1367,
 				"line_ending": "Windows"
 			}
 		}
@@ -320,13 +360,22 @@
 	},
 	"file_history":
 	[
-		"/C/jyoti_project/angulardemo/list.html",
-		"/C/jyoti_project/angulardemo/css/style.css",
-		"/C/jyoti_project/angulardemo/api/todo.php",
 		"/C/jyoti_project/angulardemo/api/functions.php",
+		"/C/jyoti_project/angulardemo/addtodo.html",
+		"/C/jyoti_project/angulardemo/api/Slim/Middleware/MethodOverride.php",
+		"/C/jyoti_project/angulardemo/api/Slim/Slim.php",
+		"/C/jyoti_project/angulardemo/api/Slim/Route.php",
+		"/C/jyoti_project/angulardemo/api/Slim/Middleware/PrettyExceptions.php",
+		"/C/jyoti_project/angulardemo/api/todo.php",
+		"/C/jyoti_project/angulardemo/index.html",
+		"/C/jyoti_project/angulardemo/js/app.js",
+		"/C/jyoti_project/angulardemo/api/todos.php",
+		"/C/jyoti_project/angulardemo/css/style.css",
+		"/C/jyoti_project/angulardemo/list.html",
+		"/C/jyoti_project/angulardemo/angularproject.sublime-workspace",
+		"/C/jyoti_project/angulardemo/angularproject.sublime-project",
 		"/C/jyoti_project/angulardemo/js/script.js",
 		"/C/jyoti_project/gameSite/css/style.css",
-		"/C/jyoti_project/angulardemo/angularproject.sublime-project",
 		"/C/jyoti_project/angulardemo/.htaccess",
 		"/C/jyoti_project/angulardemo/api/v1/API.class.php",
 		"/C/jyoti_project/angulardemo/api/v1/MyAPI.class.php",
@@ -366,7 +415,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 90.0,
 		"where_history":
 		[
 		]
@@ -376,6 +425,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"main(",
+			"main",
 			"ADAD10",
 			"BABA0F",
 			"C2C210",
@@ -407,84 +458,87 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
+					"file": "js/app.js",
 					"settings":
 					{
-						"buffer_size": 695,
+						"buffer_size": 2208,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								283,
-								283
+								1067,
+								1067
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"word_wrap": false
+							"auto_complete": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 566.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "js/app.js",
+					"file": "api/todos.php",
 					"settings":
 					{
-						"buffer_size": 1477,
+						"buffer_size": 1783,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1475,
-								1475
+								581,
+								581
 							]
 						],
 						"settings":
 						{
 							"auto_complete": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 454.0,
+						"translation.y": 94.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "addtodo.html",
+					"file": "api/functions.php",
 					"settings":
 					{
-						"buffer_size": 921,
+						"buffer_size": 1144,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								741,
-								741
+								194,
+								194
 							]
 						],
 						"settings":
 						{
 							"auto_complete": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"word_wrap": false
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -494,23 +548,23 @@
 				},
 				{
 					"buffer": 3,
-					"file": "css/style.css",
 					"settings":
 					{
-						"buffer_size": 920,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								918,
-								918
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
+							"syntax": "Packages/Xdebug Client/Xdebug.tmLanguage",
+							"word_wrap": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -520,18 +574,96 @@
 				},
 				{
 					"buffer": 4,
-					"file": "list.html",
 					"settings":
 					{
-						"buffer_size": 666,
+						"buffer_size": 263,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								289,
-								289
+								263,
+								263
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Xdebug Client/Xdebug.tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 9.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Xdebug Client/Xdebug.tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"settings":
+					{
+						"buffer_size": 57,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								57,
+								57
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Xdebug Client/Xdebug.tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "list.html",
+					"settings":
+					{
+						"buffer_size": 1367,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								856,
+								856
 							]
 						],
 						"settings":
@@ -599,7 +731,7 @@
 		"rows":
 		[
 			0.0,
-			0.917218543046,
+			0.7,
 			1.0
 		]
 	},
@@ -633,6 +765,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 149.0,
+	"side_bar_width": 290.0,
 	"status_bar_visible": true
 }
